@@ -1,0 +1,388 @@
+@import "../aditionaly/colorSheame";
+
+main {
+  font-family: HelveticaNeue, sans-serif;
+}
+.mainImg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/primaryImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.orderList {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.orderParktronik {
+  margin-left: 20%;
+
+}
+
+.sentence{
+  h1 {
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    span {
+      color: #ffdc00;
+    }
+  }
+  p {
+    margin-top: 50px;
+    font-size: 24px;
+    color: white;
+    span {
+      color: #ffdc00;
+      font-weight: bold;
+    }
+  }
+}
+
+.timer {
+  margin-left: 20%;
+  padding-bottom: 50px;
+  p{
+    span {
+      margin-right: 5px;
+      font-size: 39px;
+      color: white;
+      background: #333333;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    img {
+      position: relative;
+      top: 10px;
+    }
+  }
+  .buttonOrder {
+    text-align: left;
+  }
+}
+
+.buttonOrder {
+  margin-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.92px;
+    color: #333333;
+    background: #ffdc00;
+    border-radius: 10px 10px 5px 5px;
+    box-shadow: 0px 5px 0px #b9a000;
+    padding: 15px 65px;
+  }
+}
+
+.viewParktronik {
+  margin-top: 160px;
+  margin-right: 20%;
+  .imgSale {
+    text-align: right;
+  }
+  .imgViewParktronik {
+    text-align: center;
+  }
+}
+
+.subTitle{
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 50px;
+    span {
+      color: #ffdc00;
+    }
+  }
+  .border-bottom {
+    border-bottom: 1px solid #ffdc00;
+    width: 15%;
+    margin: 36px auto;
+  }
+}
+
+
+.border-bottom {
+  border-bottom: 1px solid #ffdc00;
+  width: 3%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+
+.groupSpecification {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  div {
+    width: 33%;
+    padding-right: 20px;
+  }
+  .imgViewParktronik {
+    text-align: center;
+    margin-top: 40px;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      font-size: 14px;
+      line-height: 28px;
+      font-style: italic;
+      color: #9a9a9a;
+      &:before{
+        content: "-";
+        position: absolute;
+        margin-left: -1.1em;
+      }
+    }
+  }
+
+  h4 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    margin-top: 40px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #9a9a9a;
+    font-style: italic;
+  }
+}
+
+.advantagesInfo {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  div {
+    text-align: center;
+    width: 25%;
+    p {
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ffdc00;
+    }
+    span {
+      padding-top: 10px;
+      font-size: 14px;
+      color: #9a9a9a;
+    }
+  }
+}
+
+.video {
+  text-align: center;
+}
+
+.economy {
+  display: flex;
+  justify-content: space-between;
+  .howGirlsParking {
+    margin-left: 20%;
+    width: 50%;
+    h5 {
+      text-align: center;
+      font-size: 18px;
+      color: #333333;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 24px;
+      color: #333333;
+      font-weight: bold;
+      padding-bottom: 15px;
+      span {
+        color: #ffdc00;
+      }
+    }
+    .crachImg {
+      display: flex;
+      margin-top: 20px;
+      div {
+        margin-right: 25px;
+      }
+    }
+  }
+  .priceParktronik{
+    margin-right: 20%;
+    width: 50%;
+    h5 {
+      text-align: center;
+      font-size: 18px;
+      color: #333333;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 24px;
+      color: #333333;
+      font-weight: bold;
+      padding-bottom: 30px;
+      span {
+        color: #ffdc00;
+      }
+    }
+    .plus {
+      text-align: left;
+      font-size: 78px;
+      font-weight: bold;
+      color: #ffdc00;
+      position: absolute;
+    }
+  }
+}
+
+.shippinngAndWarrrantly {
+  margin: 0 20%;
+}
+
+.warrantly {
+  line-height: 24px;
+  p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+    padding-bottom: 30px;
+  }
+  ul {
+    margin-left: 16px;
+    padding-bottom: 30px;
+    li {
+      font-size: 14px;
+      font-weight: 400;
+      padding-left: 15px;
+    }
+  }
+  span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.paymentWarrantly {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 30px;
+  div {
+    text-align: center;
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      color: #ffdc00;
+    }
+  }
+}
+
+.deliveryAndPayment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  .deliveriRussia {
+    width: 40%;
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      padding-bottom: 20px;
+    }
+    ul {
+      margin-left: 15px;
+      li {
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 24px;
+        padding-left: 15px;
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.checkout {
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderImg {
+  width: 50%;
+  .plus {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffdc00;
+  }
+  .sale {
+    position: absolute;
+    img {
+      position: relative;
+      left: 242px;
+      top: -125px;
+    }
+  }
+}
+
+.order {
+  width: 50%;
+  text-align: center;
+  input {
+    width: 50%;
+    height: 45px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    margin-top: 15px;
+  }
+  .timer{
+    p{
+      span {
+        margin-right: 5px;
+        font-weight: bold;
+        font-size: 32px;
+        color: white;
+        background: #333333;
+        padding: 8px 7px;
+        border-radius: 7px;
+      }
+    }
+  }
+  .buttonOrder{
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1.92px;
+      color: #333333;
+      background: #ffdc00;
+      border-radius: 10px 10px 10px 10px;
+      padding: 15px 65px;
+    }
+  }
+}

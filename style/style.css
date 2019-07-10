@@ -1,0 +1,657 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 105px;
+  background: #ffdc00;
+  font-family: HelveticaNeue, sans-serif;
+}
+
+.logo {
+  margin-left: 20%;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 2.4px;
+  line-height: 33px;
+}
+.logo h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.logo h2 span {
+  font-weight: 100;
+}
+.logo p {
+  font-size: 14px;
+}
+
+.callBack {
+  margin-right: 20%;
+  padding-top: 18px;
+  text-align: right;
+}
+.callBack p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 23px;
+}
+.callBack a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  background: #333333;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+main {
+  font-family: HelveticaNeue, sans-serif;
+}
+
+.mainImg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/primaryImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.orderList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderParktronik {
+  margin-left: 20%;
+}
+
+.sentence h1 {
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: white;
+}
+.sentence h1 span {
+  color: #ffdc00;
+}
+.sentence p {
+  margin-top: 50px;
+  font-size: 24px;
+  color: white;
+}
+.sentence p span {
+  color: #ffdc00;
+  font-weight: bold;
+}
+
+.timer {
+  margin-left: 20%;
+  padding-bottom: 50px;
+}
+.timer p span {
+  margin-right: 5px;
+  font-size: 39px;
+  color: white;
+  background: #333333;
+  padding: 15px;
+  border-radius: 10px;
+}
+.timer p img {
+  position: relative;
+  top: 10px;
+}
+.timer .buttonOrder {
+  text-align: left;
+}
+
+.buttonOrder {
+  margin-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.buttonOrder a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.92px;
+  color: #333333;
+  background: #ffdc00;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 0px 5px 0px #b9a000;
+  padding: 15px 65px;
+}
+
+.viewParktronik {
+  margin-top: 160px;
+  margin-right: 20%;
+}
+.viewParktronik .imgSale {
+  text-align: right;
+}
+.viewParktronik .imgViewParktronik {
+  text-align: center;
+}
+
+.subTitle h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 50px;
+}
+.subTitle h3 span {
+  color: #ffdc00;
+}
+.subTitle .border-bottom {
+  border-bottom: 1px solid #ffdc00;
+  width: 15%;
+  margin: 36px auto;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ffdc00;
+  width: 3%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+
+.groupSpecification {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.groupSpecification div {
+  width: 33%;
+  padding-right: 20px;
+}
+.groupSpecification .imgViewParktronik {
+  text-align: center;
+  margin-top: 40px;
+}
+.groupSpecification ul {
+  list-style-type: none;
+}
+.groupSpecification ul li {
+  font-size: 14px;
+  line-height: 28px;
+  font-style: italic;
+  color: #9a9a9a;
+}
+.groupSpecification ul li:before {
+  content: "-";
+  position: absolute;
+  margin-left: -1.1em;
+}
+.groupSpecification h4 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+  margin-top: 40px;
+}
+.groupSpecification p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #9a9a9a;
+  font-style: italic;
+}
+
+.advantagesInfo {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.advantagesInfo div {
+  text-align: center;
+  width: 25%;
+}
+.advantagesInfo div p {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffdc00;
+}
+.advantagesInfo div span {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+.video {
+  text-align: center;
+}
+
+.economy {
+  display: flex;
+  justify-content: space-between;
+}
+.economy .howGirlsParking {
+  margin-left: 20%;
+  width: 50%;
+}
+.economy .howGirlsParking h5 {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.economy .howGirlsParking p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.economy .howGirlsParking p span {
+  color: #ffdc00;
+}
+.economy .howGirlsParking .crachImg {
+  display: flex;
+  margin-top: 20px;
+}
+.economy .howGirlsParking .crachImg div {
+  margin-right: 25px;
+}
+.economy .priceParktronik {
+  margin-right: 20%;
+  width: 50%;
+}
+.economy .priceParktronik h5 {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.economy .priceParktronik p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.economy .priceParktronik p span {
+  color: #ffdc00;
+}
+.economy .priceParktronik .plus {
+  text-align: left;
+  font-size: 78px;
+  font-weight: bold;
+  color: #ffdc00;
+  position: absolute;
+}
+
+.shippinngAndWarrrantly {
+  margin: 0 20%;
+}
+
+.warrantly {
+  line-height: 24px;
+}
+.warrantly p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 30px;
+}
+.warrantly ul {
+  margin-left: 16px;
+  padding-bottom: 30px;
+}
+.warrantly ul li {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.warrantly span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.paymentWarrantly {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.paymentWarrantly div {
+  text-align: center;
+}
+.paymentWarrantly div p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #ffdc00;
+}
+
+.deliveryAndPayment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.deliveryAndPayment .deliveriRussia {
+  width: 40%;
+}
+.deliveryAndPayment .deliveriRussia p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 20px;
+}
+.deliveryAndPayment .deliveriRussia ul {
+  margin-left: 15px;
+}
+.deliveryAndPayment .deliveriRussia ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+  padding-left: 15px;
+}
+.deliveryAndPayment .deliveriRussia ul li span {
+  font-weight: bold;
+}
+
+.checkout {
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderImg {
+  width: 50%;
+}
+.orderImg .plus {
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffdc00;
+}
+.orderImg .sale {
+  position: absolute;
+}
+.orderImg .sale img {
+  position: relative;
+  left: 242px;
+  top: -125px;
+}
+
+.order {
+  width: 50%;
+  text-align: center;
+}
+.order input {
+  width: 50%;
+  height: 45px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  margin-top: 15px;
+}
+.order .timer p span {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  background: #333333;
+  padding: 8px 7px;
+  border-radius: 7px;
+}
+.order .buttonOrder a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.92px;
+  color: #333333;
+  background: #ffdc00;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px 65px;
+}
+
+footer {
+  background: #333333;
+  height: 125px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    margin: 0 auto;
+  }
+
+  .callBack {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .orderList {
+    flex-direction: column;
+  }
+  .orderList .orderParktronik {
+    margin: 0 auto;
+  }
+  .orderList .viewParktronik {
+    margin: 40px auto;
+  }
+  .orderList .viewParktronik .imgSale {
+    position: relative;
+    right: 10px;
+    top: -95px;
+  }
+
+  .timer {
+    margin: 0 auto;
+  }
+  .timer p {
+    text-align: center;
+  }
+  .timer .buttonOrder {
+    text-align: center;
+  }
+
+  .subTitle .border-bottom {
+    width: 30%;
+    display: block;
+  }
+
+  .groupSpecification {
+    flex-direction: column;
+    margin: 0 20%;
+  }
+  .groupSpecification div {
+    width: 100%;
+    order: 2;
+  }
+  .groupSpecification .secondBlockSpecification {
+    order: 1;
+  }
+  .groupSpecification .secondBlockSpecification .border-bottom {
+    display: block;
+    width: 10%;
+    margin: 20px 0px 0px 0px;
+  }
+  .groupSpecification .imgViewParktronik img {
+    width: 80%;
+  }
+
+  .border-bottom {
+    display: none;
+  }
+
+  .advantagesInfo {
+    flex-direction: column;
+  }
+  .advantagesInfo div {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .video {
+    position: relative;
+    padding-bottom: 33.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 0 20%;
+  }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .economy {
+    flex-direction: column;
+  }
+  .economy .howGirlsParking {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  .economy .howGirlsParking .crachImg {
+    justify-content: center;
+    margin-left: 26px;
+  }
+  .economy .priceParktronik {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .economy .priceParktronik .plus {
+    margin-left: 20%;
+    margin-top: 30px;
+  }
+
+  .paymentWarrantly {
+    flex-direction: column;
+  }
+  .paymentWarrantly div {
+    width: 100%;
+  }
+
+  .deliveryAndPayment {
+    flex-direction: column;
+  }
+  .deliveryAndPayment .deliveriRussia {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .deliveryAndPayment .deliveriRussia p {
+    text-align: center;
+  }
+
+  .checkout {
+    flex-direction: column;
+    margin: 0;
+  }
+  .checkout .orderImg {
+    transform: scale(-1, 1);
+    width: 100%;
+    text-align: center;
+  }
+  .checkout .orderImg p {
+    text-align: right;
+    margin-right: 51px;
+  }
+  .checkout .orderImg .sale {
+    position: absolute;
+    transform: scale(-0.9, 0.9);
+    left: 481px;
+  }
+
+  .order {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .orderParktronik {
+    margin: 0 5px;
+  }
+  .orderParktronik .sentence h1 {
+    font-size: 27px;
+  }
+  .orderParktronik .sentence p {
+    font-size: 20px;
+  }
+
+  .viewParktronik .imgViewParktronik img {
+    width: 80%;
+  }
+  .viewParktronik .imgSale {
+    transform: scale(0.8);
+    margin-bottom: -100px;
+    right: -10px;
+  }
+
+  .timer p span {
+    padding: 15px 10px 15px 10px;
+    font-size: 32px;
+  }
+
+  .subTitle h3 {
+    font-size: 1.17em;
+  }
+
+  .howGirlsParking div img {
+    width: 80%;
+  }
+  .howGirlsParking .crachImg div img {
+    width: 100%;
+  }
+
+  .priceParktronik div img {
+    width: 80%;
+  }
+  .priceParktronik .plus {
+    margin-left: 5%;
+    margin-top: -40px;
+  }
+
+  .checkout .orderImg .glass img {
+    width: 80%;
+  }
+  .checkout .orderImg .sale {
+    position: relative !important;
+    transform: scale(-0.4, 0.4) !important;
+    left: 180px !important;
+    top: 199px;
+    margin-top: -271px;
+  }
+
+  .order {
+    margin-top: 120px;
+  }
+  .order div input {
+    width: 75%;
+  }
+  .order .buttonOrder {
+    margin-top: 0px;
+  }
+
+  .timer p img {
+    position: relative;
+    top: 12px;
+    right: 3px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -128,6 +128,11 @@ main {
     width: 33%;
     padding-right: 20px;
   }
+  .secondBlockSpecification{
+    .border-bottom{
+      display: none;
+    }
+  }
   .imgViewParktronik {
     text-align: center;
     margin-top: 40px;

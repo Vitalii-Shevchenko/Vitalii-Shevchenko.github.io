@@ -195,10 +195,8 @@ main {
 
 .economy {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   .howGirlsParking {
-    margin-left: 20%;
-    width: 50%;
     h5 {
       text-align: center;
       font-size: 18px;
@@ -226,8 +224,6 @@ main {
     }
   }
   .priceParktronik{
-    margin-right: 20%;
-    width: 50%;
     h5 {
       text-align: center;
       font-size: 18px;

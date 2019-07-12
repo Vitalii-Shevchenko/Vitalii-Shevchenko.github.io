@@ -236,11 +236,7 @@ main {
 
 .economy {
   display: flex;
-  justify-content: space-between;
-}
-.economy .howGirlsParking {
-  margin-left: 20%;
-  width: 50%;
+  justify-content: center;
 }
 .economy .howGirlsParking h5 {
   text-align: center;
@@ -266,10 +262,6 @@ main {
 }
 .economy .howGirlsParking .crachImg div {
   margin-right: 25px;
-}
-.economy .priceParktronik {
-  margin-right: 20%;
-  width: 50%;
 }
 .economy .priceParktronik h5 {
   text-align: center;

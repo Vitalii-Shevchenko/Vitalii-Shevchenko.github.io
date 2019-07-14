@@ -1,0 +1,27 @@
+body{
+    background: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+button{
+    height: 200px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    outline: none;
+    background: white;
+    border: 2px solid grey;
+    transition: 0.1s ease;
+}
+button p{
+    font-size: 20px;
+    padding-top: 130px;
+}
+.click{
+    transform: scale(0.9,0.9);
+    border: 2px solid pink;
+    margin-top: 9px;
+}

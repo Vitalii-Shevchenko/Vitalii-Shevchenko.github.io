@@ -8,6 +8,8 @@ const audioJ = new Audio('sound/sound_7_J.mp3');
 const audioK = new Audio('sound/sound_8_K.mp3');
 
 
+
+
 let div =document.createElement('div');
     div.className='container';
     document.body.appendChild(div);
@@ -16,6 +18,7 @@ let buttonA = document.createElement('button');
 buttonA.className="keyA";
 buttonA.innerHTML='<p>A</p>';
 buttonA.onmousedown= function () {
+    audioA.currentTime=0;
     audioA.play();
     buttonA.classList.add('click');
 };
@@ -28,6 +31,7 @@ let buttonS=document.createElement('button');
 buttonS.className="keyS";
 buttonS.innerHTML='<p>S</p>';
 buttonS.onmousedown= function () {
+    audioS.currentTime=0;
     audioS.play();
     buttonS.classList.add('click');
 };
@@ -40,6 +44,7 @@ let buttonD=document.createElement('button');
 buttonD.className="keyD";
 buttonD.innerHTML='<p>D</p>';
 buttonD.onmousedown= function () {
+    audioD.currentTime=0;
     audioD.play();
     buttonD.classList.add('click');
 };
@@ -52,6 +57,7 @@ let buttonF=document.createElement('button');
 buttonF.className="keyF";
 buttonF.innerHTML='<p>F</p>';
 buttonF.onmousedown= function () {
+    audioF.currentTime=0;
     audioF.play();
     buttonF.classList.add('click');
 };
@@ -64,6 +70,7 @@ let buttonG=document.createElement('button');
 buttonG.className="keyG";
 buttonG.innerHTML='<p>G</p>';
 buttonG.onmousedown= function () {
+    audioG.currentTime=0;
     audioG.play();
     buttonG.classList.add('click');
 };
@@ -76,6 +83,7 @@ let buttonH=document.createElement('button');
 buttonH.className="keyH";
 buttonH.innerHTML='<p>H</p>';
 buttonH.onmousedown= function () {
+    audioH.currentTime=0;
     audioH.play();
     buttonH.classList.add('click');
 };
@@ -88,6 +96,7 @@ let buttonJ=document.createElement('button');
 buttonJ.className="keyJ";
 buttonJ.innerHTML='<p>J</p>';
 buttonJ.onmousedown= function () {
+    audioJ.currentTime=0;
     audioJ.play();
     buttonJ.classList.add('click');
 };
@@ -100,6 +109,7 @@ let buttonK=document.createElement('button');
 buttonK.className="keyK";
 buttonK.innerHTML='<p>K</p>';
 buttonK.onmousedown= function () {
+    audioK.currentTime=0;
     audioK.play();
     buttonK.classList.add('click');
 };
@@ -110,33 +120,56 @@ document.querySelector('.container').appendChild(buttonK);
 
 
 
+document.onmouseup=function(){
+    buttonA.classList.remove('click');
+    buttonS.classList.remove('click');
+    buttonD.classList.remove('click');
+    buttonF.classList.remove('click');
+    buttonG.classList.remove('click');
+    buttonH.classList.remove('click');
+    buttonJ.classList.remove('click');
+    buttonK.classList.remove('click');
+}
+
+
+
+
+
 ////ПРОИГРЫВАНИЕ МУЗЫКИ ПРИ НАЖАТИИ КОАВИШЫ//////
 
 
 
 document.onkeydown = function(event){
     if (event.which == 65 ){
+        audioA.currentTime=0;
         audioA.play();
         buttonA.classList.add('click');
     }else if (event.which == 83){
+        audioS.currentTime=0;
         audioS.play()
         buttonS.classList.add('click');
     }else if (event.which == 68){
+        audioD.currentTime=0;
         audioD.play()
         buttonD.classList.add('click');
     }else if (event.which == 70){
+        audioF.currentTime=0;
         audioF.play()
         buttonF.classList.add('click');
     }else if (event.which == 71){
+        audioG.currentTime=0;
         audioG.play()
         buttonG.classList.add('click');
     }else if (event.which == 72){
+        audioH.currentTime=0;
         audioH.play()
         buttonH.classList.add('click');
     }else if (event.which == 74){
+        audioJ.currentTime=0;
         audioJ.play()
         buttonJ.classList.add('click');
     }else if (event.which == 75){
+        audioK.currentTime=0;
         audioK.play()
         buttonK.classList.add('click');
     }

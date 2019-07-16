@@ -194,5 +194,5 @@ document.onkeyup = function(event){
         buttonK.classList.remove('click');
     }
 };
-
+fetch(`https://google.com`);
 

@@ -1,5 +1,6 @@
 .container{
     padding: 10px;
+    background: lightgrey;
 }
 button{
     font-size: 10px;
@@ -8,6 +9,7 @@ button{
     outline: none;
     border: none;
     width: 5%;
+    background: darkgrey;
 }
 .stop{
     display: none;

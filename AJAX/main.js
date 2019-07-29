@@ -49,9 +49,10 @@ function showUsers() {
         buttonChanged = document.createElement('button');
         buttonChanged.className = 'changed';
         buttonChanged.textContent = 'CHANGED';
-        // buttonChanged.onclick = function () {
-        //     // changedUser(user.id, user.name, user.age)
-        // };
+        buttonChanged.onclick = function () {
+            changedUser(user.id, inputName.value, inputAge.value);
+        };
+
 
         container.append(div);
         div.append(inputName);
@@ -70,15 +71,25 @@ async function deleteUser(id) {
 }
 
 
-// async function changedUser(id, name, age) {
-//     await fetch(API + 'users/' + id, {
-//         method: 'PUT',
-//         body: JSON.stringify(user),
-//         headers: { 'Content-Type': 'application/json' }
-//     });
-//
-//     showUsers();
-// }
+async function changedUser(id, newName, newAge ){
+
+    const user = {
+        name: newName,
+        age: newAge
+    };
+
+    await fetch(API + 'users/' + id, {
+        method: 'PUT',
+        body: JSON.stringify(user),
+        headers: { 'Content-Type': 'application/json' }
+    });
+
+    getUsers().then(res =>{
+        users = res.data;
+        console.log(users);
+        showUsers();
+    });
+}
 
 
 async function createUser() {

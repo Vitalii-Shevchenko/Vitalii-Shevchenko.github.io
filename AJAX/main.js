@@ -103,10 +103,9 @@ async function createUser() {
         headers: { 'Content-Type': 'application/json' }
     }).then((res) => {
         return res.json();
-    })
-        .then((data) => {
+    }).then((data) => {
             user.id = data.id;
             users.unshift(user);
             showUsers();
-        })
+    })  
 }
